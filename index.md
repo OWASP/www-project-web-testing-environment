@@ -4,6 +4,7 @@ layout: col-sidebar
 title: OWASP web testing environment
 tags: example-tag
 level: 4
+type: tool
 
 ---
 
