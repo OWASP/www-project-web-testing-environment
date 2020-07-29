@@ -3,7 +3,7 @@
 layout: col-sidebar
 title: OWASP Web Testing Environment
 tags: testing
-level: 0
+level: 2
 type: tool
 pitch: OWASP WTE is a collection of Application Security Tools provided as Debian files or a VM.
 
