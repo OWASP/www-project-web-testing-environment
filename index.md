@@ -2,55 +2,45 @@
 
 layout: col-sidebar
 title: OWASP Web Testing Environment
-tags: example-tag
+tags: testing
 level: 0
 type: tool
-
-auto-migrated: 1
-auto-migrated: 1
-
-auto-migrated: 1
+pitch: OWASP WTE is a collection of Application Security Tools provided as Debian files or a VM.
 
 ---
 
 
-<!-- Standard Chapter Page Template
-This is an example of a Project or Chapter page.
-Please change these items to indicate the actual information you wish to present. In addition to this information, the 'front-matter' above the text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+## OWASP Web Testing Environment
 
-{front matter for this file}
+OWASP WTE, or OWASP Web Testing Environment, is a collection of application security tools and documentation available in multiple formats such as VMs, Linux distribution packages, Cloud-based installations and ISO images.
 
-```
-- layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
-- title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
-- tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
-- region: This is the region you are in according to our data
-```
+## Introduction
 
-{copy for this file (index.md)}
-Replace the text above the commented area with your information in the format below:
-```
-## Welcome
-Include some information here about your chapter
+The OWASP WTE project is an enhancement of the original [OWASP Live CD Project](https://wiki.owasp.org/index.php/Category:OWASP_Live_CD_Project) and expands the offering from a static Live CD ISO image to a collection of sub-projects. Its primary goal is to
 
-## Participation
-The Open Web Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software. All of our projects ,tools, documents, forums, and chapters are free and open to anyone interested in improving application security. 
+  Make application security tools and documentation easily available and easy to use.
 
-Chapters are led by local leaders in accordance with the [Chapter Leader Handbook](/www-policy/rules-of-procedure/chapter-handbook). Financial contributions should only be made online using the authorized online donation button. To be a SPEAKER at ANY OWASP Chapter in the world simply review the [speaker agreement](/www-policy/speaker-agreement) and then contact the local chapter leader with details of what OWASP Project, independent research, or related software security topic you would like to present.
+## Description
 
-Everyone is welcome and encouraged to participate in our [Projects](/projects), [Local Chapters](/chapters), [Events](/events), [Online Groups](https://groups.google.com/a/owasp.com/){:target='_blank'}, and [Community Slack Channel](https://owasp.slack.com/){:target='_blank'}. We especially encourage diversity in all our initiatives. OWASP is a fantastic place to learn about application security, to network, and even to build your reputation as an expert. We also encourage you to be [become a member](/membership) or consider a [donation](/donate) to support our ongoing work.
+At its heart, OWASP WTE is a collection of easy to use application security tools and documentation. WTE has a variety of ways to distribute them:
 
-## Local News
-- Meeting Location
-- Everyone is welcome to join us at our chapter meetings.
+* Virtual Machines for VMware, VirtualBox and Parallels
+* Invidividual Debian packages (.deb) which attempt to be Linux disto agnostic.
+  * Tested against Ubuntu, Debian, Mint, Kali, etc.
+* A bootable ISO image
+* Hosted on various Cloud providers
+* Ala Carte mix-and-match installations for special purposes
 
-```
-{info.md}
+The project is focused at providing a ready environment for testers, developers or trainers to learn, enhance, demonstrate or use their application security skills. It's been an active OWASP project since 2008 and has had over 300,000 downloads.
 
-This separate file is where you should place links to your Google Group and Meetup page. It will be automatically rendered in the column sidebar.
+Beyond the collection of tools from OWASP and other security projects, OWASP WTE has begun producing and including its own security tools, especially where there were no existing tools which fit a particular need.
 
-{leaders.md}
+## Licensing
 
-Another separate file that should simply include each leaders name with mailto link as a list. It will also be automatically rendered in the column sidebar.
+OWASP WTE is free to use. Its licensing is dependant on several factors:
 
--->
+* OWASP WTE created documenation is licensed under the [Creative Commons Attribution-ShareAlike 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/), so you can copy, distribute and transmit the work, and you can adapt it, and use it commercially, but all provided that you attribute the work and if you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+* OWASP WTE created software and tools are licensed under the [GPLv3](https://www.gnu.org/copyleft/gpl.html) or later license. You are free to use and modify this software as well as having the right to re-distribute this software as long as any changes you've made are contributed back to the project under the same license. For questions, see the [GPL FAQ](https://www.gnu.org/licenses/gpl-faq.html).
+* OWASP WTE packaged software and documentation is under the license of that project and/or software. The only licensing constraint required by OWASP WTE is that the software it makes packages of must be free to redistribute.
+
+In short, you can use and share OWASP WTE as much as you want. The only time you may have an obligation is when you modify and redistribute OWASP WTE.
